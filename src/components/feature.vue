@@ -3,7 +3,7 @@
   
  <section class="hero-card">
     <div>
-        <img class="image" src="super.jpg" alt="">
+        <!-- <img class="image" src="super.jpg" alt=""> -->
      
      </div>
      <div>

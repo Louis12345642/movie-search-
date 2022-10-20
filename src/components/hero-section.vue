@@ -9,7 +9,7 @@
 
       <section class="hero-card">
         <div>
-          <img class="image" src="tom.jpg" alt="" />
+       
         </div>
         <div>
           <h2 class="theme">search movie or series here</h2>
