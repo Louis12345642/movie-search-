@@ -54,6 +54,30 @@
           </div>
 </template>
 <script>
+import { ref } from 'vue';
+
+export default{
+    setup(){
+        const movie=ref([]);
+        function getDefault(){
+      fetch(
+        `http://www.omdbapi.com/?apikey=${this.apiKey}&s=${this.searchValue}`
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          this.movies = data.Search;
+          console.log(data);
+        });
+      this.searchValue = "";
+      console.log(this.movies);
+    }
+        
+        return{
+            movie,
+            getDefault
+        }
+    }
+}
 </script>
 <style>
 
