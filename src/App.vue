@@ -2,20 +2,20 @@
 import pageHeader from "./components/pageHeader.vue"
 import hero from "./components/hero.vue"
 import searchButton from "./components/searchButton.vue"
+import heroSection  from "./components/hero-section.vue"
 export default{
 name:"App",
 components:{
 pageHeader,
-hero,
 searchButton,
+heroSection
 }
 }
 </script>
 
 <template>
   <pageHeader/>
-  <hero/>
-  <searchButton/>
+<router-view/>
 </template>
 
 <style>
