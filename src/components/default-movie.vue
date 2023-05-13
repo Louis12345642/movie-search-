@@ -34,7 +34,7 @@ export default{
         const movies=ref([]);
         const apiKey=ref('11fc4a08');
 
-        const searchValue=ref('turning red');
+        const searchValue=ref('creed');
         function getDefault(){
       fetch(
         `http://www.omdbapi.com/?apikey=${this.apiKey}&s=${this.searchValue}`
@@ -62,6 +62,7 @@ export default{
     }
 
 }
+
 </script>
 <style>
 

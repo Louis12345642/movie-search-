@@ -24,7 +24,7 @@
 </router-link>
 </section>
 </template>
-<script>
+<script >
     import { ref } from 'vue';
 export default{
     
